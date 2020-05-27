@@ -83,7 +83,8 @@ u {
 }
 
 .btn-light {
-  background-color: #16384e;
+  background-color: #16384e5d;
+
   border: 1px solid #ffffff;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
