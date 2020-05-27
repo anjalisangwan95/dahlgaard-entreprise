@@ -1,8 +1,8 @@
-$(window).on("load", function () {
-  $("#figur").show(
-    "slide",
+$(window).ready(function () {
+  $("#figur").animate(
     {
-      direction: "down",
+      bottom: "+=50",
+      height: "toggle",
     },
     2000
   );
