@@ -1,0 +1,43 @@
+/* 
+ENG: Styling af selve hjemmesiden
+DK: Basic design 
+*/
+body {
+  background-color: #16384e;
+}
+
+.navbar {
+  background-color: #16384e !important;
+}
+
+.container-values {
+  background-color: #ffffff;
+  height: 400px;
+  overflow: hidden;
+}
+
+.nav-tabs > li > a {
+  color: #000000;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 20%;
+  border: 2px solid #e3e8ef;
+  margin: 8px;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.row {
+  background-color: #16384e;
+}

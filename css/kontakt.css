@@ -1,0 +1,16 @@
+/* 
+ENG: Styling af selve hjemmesiden
+DK: Basic design 
+*/
+body {
+  background-color: #16384e;
+}
+
+.navbar {
+  background-color: #16384e !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}

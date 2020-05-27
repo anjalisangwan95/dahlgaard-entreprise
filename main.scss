@@ -1,0 +1,50 @@
+/* Font navn  */
+$font-family-sans-serif: "poppins", sans-serif;
+
+$enable-responsive-font-sizes: true;
+$font-weight-light: 300 !default;
+
+/* Padding & Marging for Flex */
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25,
+    ),
+    2: (
+      $spacer * 0.5,
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5,
+    ),
+    5: (
+      $spacer * 3,
+    ),
+    6: (
+      $spacer * 3.5,
+    ),
+    7: (
+      $spacer * 4,
+    ),
+    8: (
+      $spacer * 10,
+    ),
+  ),
+  $spacers
+);
+
+/* Knapper Buttons */
+$btn-border-radius: 20px;
+$border-radius: 20px;
+
+/* Modify Map - changes of custom colors */
+$theme-colors: (
+  "primary": #000000,
+  "danger": #e3e8ef,
+  "success": #ef794a,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";

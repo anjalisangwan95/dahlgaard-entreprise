@@ -1,0 +1,15 @@
+{
+  "name": "dahlgaardbyg",
+  "version": "1.0.0",
+  "description": "bootstrap themed website for Dahlgaard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali Sangwan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "sass": "^1.26.5"
+  }
+}

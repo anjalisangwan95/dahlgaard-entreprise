@@ -1,0 +1,88 @@
+/* 
+ENG: Styling of the gallery - Changes of columns
+DK:Styling af galleri - Antal af columns 
+*/
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* 
+ENG: Styling af selve hjemmesiden
+DK: Basic design 
+*/
+.body {
+  overflow: auto;
+}
+.navbar {
+  background-color: #16384e !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #54b0e3;
+  border-color: #54b0e3;
+}
+
+u {
+  text-decoration: underline;
+}
+
+.btn-light {
+  background-color: #16384e;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.container {
+  background-color: #16384e;
+  overflow: auto;
+}
+
+.row {
+  background-color: #16384e;
+}
+
+/* 
+ENG: Start af media queires
+DK: Start of media queires
+*/
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    align-items: center;
+  }
+
+  .btn.filter {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    align-items: center;
+  }
+}
